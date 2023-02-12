@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 
+
 class QueenAttack
 {
 
@@ -18,10 +19,17 @@ class QueenAttack
 
         // changing my Read value which would be in strings to integer
 
-        long QueenCoordinatesInteger = long.Parse(QueenCoordinatesString);
+        int QueenCoordinatesInteger = int.Parse(QueenCoordinatesString);
 
-        
+        // INSTRUCTION SAYS: when user submits the coordinates, the program should create an instance of a Queen class with properyies for its X and Y coordinates
 
+        // THE Queen class should have a method that takes X and a Ycoordinate as arguments, and returns true if the queen
+        // can attack the given space, and false if it cannot
+        // Lastly, a message should be displayed to inform the user of the results
+
+        // CREATING MY QUEEN CLASS
+
+        // Queen queenClass = new Queen()
 
 
 
